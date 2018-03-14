@@ -1,0 +1,56 @@
+Example use of subsample_csv.py, phenograph_clustering.py, plot_markers.py:
+python subsample_csv.py -i Bcells_SLE/*.csv -o subsample100_round2 -n 100
+Run ACCENSE on resulting csv files, perplexity 30, Barnes-Hut t-SNE, produces 2DSNE.csv and 29D_output.csv
+python3 phenograph_clustering.py 2DSNE.csv 29D_output.csv -o phenograph.csv
+python plot_markers.py 2DSNE.csv phenograph.csv -c population -m population -y population -o Figure1A.pdf --name_clusters
+
+Example use 2 of plot_markers.py:
+Run ACCENSE on HealthyDonor.csv, perplexity 30, Barnes-Hut t-SNE, produces 2DSNE.csv and 29D_output.csv
+python plot_markers.py 2DSNE.csv 29D_output.csv -m IgD -c CD27 -y CD27 -o Figure1C.pdf
+
+Example use of calc_B-cell_number.py, cluster_size_lines.py:
+python calc_B-cell_number.py -a PBMCs_SLE/*csv -b Bcells_SLE/*csv -c cell_numbers.txt > B_cell_numbers.txt
+python cluster_size_lines.py -i phenograph.csv -t timepoints_and_sledai_table -c B_cells_per_litre.txt --divybaseline --xbin 0 0 --xbin 2 4 --xbin 5 7 --xbin 10 14 --xbin 18 30 --ylim 0 2 -o FigureS2A.pdf --no_error_bars --quite -C 26 -C 6 -C 25 -C 4 -C 8 -C 27
+
+Example use of expression_lines.py:
+python expression_lines.py -t timepoints_and_sledai_table -p CD19 CD20 CD11c -n CD21 -c B_cells_per_litre.txt -i Bcells_SLE/*csv --divybaseline -o Figure5G.pdf  --colour_patients SRI_at_4months_of_ever_responders.txt --ylim 0 6 --interpolate_method lin_erel --interpolate_points 0 3 6 12 24 --extrapolate_area 0.07
+
+Example use of expression_time_dependence.py, plot_1marker_correlation_bars.py:
+python expression_time_dependence.py -i samples_by_time_selection_from5months.txt --patientnorm -q 1 --peakpoint across -t timepoints_and_sledai_table --calc prodlog -p 1 > after5months_1pos_0neg.txt
+python plot_1marker_correlation_bars.py -i before4months_1pos_0neg.txt 2to7months_1pos_0neg.txt after5months_1pos_0neg.txt -o Figure3A.pdf
+
+Example use of expression_time_dependence.py, analyze_expression_time_dep_correlations.py:
+python expression_time_dependence.py -i samples_by_time_selection_from5months.txt --patientnorm -q 1 --peakpoint across -t timepoints_and_sledai_table --calc prodlog -p 2 -n 0 > after5months_2pos_0neg.txt
+python expression_time_dependence.py -i samples_by_time_selection_from5months.txt --patientnorm -q 1 --peakpoint across -t timepoints_and_sledai_table --calc prodlog -p 1 -n 1 > after5months_1pos_1neg.txt
+python analyze_expression_time_dep_correlations.py after5months_2pos_0neg.txt after5months_1pos_1neg.txt --not_clusterabs --peakpoint across --proteins CD22 Ki-67 CD20 CD38 CD24 CD138 CD16 CD127 CD5 --max_dm 0.85
+
+Example use of SLEDAI_to_time_correlation.py:
+python SLEDAI_to_time_correlation.py -t timepoints_and_sledai_table --divxbaseline -i samples_by_time_selection_from5months.txt
+
+Example use of expression_time_table_print.py:
+python expression_time_table_print.py -i Bcells_SLE/*time0.csv -c CD19+CD20+ CD19+CD20+IgD+IgM+CD27- CD19+CD20+IgD+CD27+ CD19+CD20+CD27+IgD- CD19+CD20+IgD-CD27- CD19+CD20+CD11c+CD21- --cellnumbers B_cells_per_litre.txt > output_table.txt
+
+Example use of compare_timedep_correlations.R:
+Rscript compare_timedep_correlations.R SRI_4months_neg_but_later_responder_1pos_0neg_0-14months.txt SRI_4months_pos_1pos_0neg_prodlog_0-14months.txt Pvalues_set1_for_FigureS5D.txt
+
+Example use of cluster_features_violin.py:
+python cluster_features_violin.py phenograph.csv --cluster 6 25 --pdf FigureS1C.pdf
+
+Example use of pie_chart_cluster_size.py:
+python3 pie_chart_cluster_size.py phenograph.csv.gz -o pie.pdf --order 4 6 8 25 26 27 0 7 9 15 16 17 18 22 23 28 1 2 13 14 24 3 5 10 11 12 19 20 21 --req_in_file_name time0
+
+Example use of compare_2_slopesandCI.py:
+python expression_time_dependence.py -i samples_by_time_selection_to4_paired_run1.txt --nodivision_confint --correlation paired_confint --cutoff 0 > confint_run1_cutoff0.txt
+python expression_time_dependence.py -i samples_by_time_selection_to4_paired_run2.txt --nodivision_confint --correlation paired_confint --cutoff 0 > confint_run2_cutoff0.txt
+python compare_2_slopesandCI.py confint_run2_cutoff0.txt confint_run1_cutoff0.txt slopesandCI_compare2.pdf --lim -0.2 0.1 --shorten_names -c "CD38" "#d99e5b" -c "CD57" "#ed408b" -c "Ki-67" "#dd0ff4" -c "CD4" "#9de257" -c "CD5" "#3fc477" -c "CCR6" "#c98b9f" -c "CD138" "#b5ca4c" -c "CXCR3" "#f8c2cf" -c "IgD" "#895708" -c "IgA" "#76165d" -c "CD22" "#a4525f" -c "IgM" "#d2066b" -c "HLA-DR" "#5e796d" -c "CXCR5" "#ce4b80" -c "CD45" "#1ed752" -c "CD44" "#057f51" -c "CD21" "#29863f" -c "CD27" "#9936f3" -c "CD25" "#668394" -c "CD24" "#509e86" -c "CD127" "#8af047" -c "CD45RA" "#05fd27" -c "CD123" "#8fe7bd" -c "CD16" "#3f6bb6" -c "CD14" "#7623d9" -c "CD19" "#8efbd6" -c "CD11c" "#1030a1"
+
+Example use of run_pca.py, plot_loadings.py:
+convert to csv files (e.g. FlowJo), then concatenate csv files into one, then run
+python run_pca.py combined_round2_proteinsonly.csv --marker k, --plotformat png -o pcaBrun2 --general --alpha 0.4
+python3 plot_loadings.py pcaBrun2_loadings*txt
+
+Example use of plot_distribution_marker.py:
+python3 plot_distribution_marker.py -i *_time0.csv -m CD11c -o CD11cdistribution.pdf
+
+Use of CD57loadingsplot.py:
+It's got hard-coded values, so recode to run anything else

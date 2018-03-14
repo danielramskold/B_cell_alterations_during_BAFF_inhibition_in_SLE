@@ -1,0 +1,24 @@
+1A: subsample_csv.py, phenograph_clustering.py, plot_markers.py
+1B,D: subsample_csv.py, plot_markers.py
+1C,E: plot_markers.py
+2A: subsample_csv.py, plot_markers.py
+2B-L: calc_B-cell_number.py, expression_lines.py
+3A: expression_time_dependence.py, plot_1marker_correlation_bars.py
+3B: R: spearman=function(x){corDist(x, method='spearman')}; plot(hclust(spearman(t(table)), method='complete'))
+3C: expression_time_dependence.py, analyze_expression_time_dep_correlations.py
+4A: expression_time_dependence.py, plot_1marker_correlation_bars.py
+4B: SLEDAI_to_time_correlation.py
+5B-C: calc_B-cell_number.py, expression_time_table_print.py
+5D: expression_time_dependence.py, compare_timedep_correlations.R, plot_1marker_correlation_bars.py
+5E: subsample_csv.py, plot_markers.py
+5F-G: calc_B-cell_number.py, expression_lines.py
+S1A-B: subsample_csv.py, plot_markers.py
+S1C-D: subsample_csv.py, phenograph_clustering.py, cluster_features_violin.py
+S2: subsample_csv.py, phenograph_clustering.py, cluster_size_lines.py
+S3A-C: expression_lines.py
+S4A-B: expression_time_dependence.py, plot_1marker_correlation_bars.py
+S5A-C: expression_time_dependence.py, analyze_expression_time_dep_correlations.py
+S5D: subsample_csv.py, plot_markers.py
+S5E: calc_B-cell_number.py, expression_lines.py
+S6A-B: calc_B-cell_number.py, expression_time_table_print.py
+S6C: calc_B-cell_number.py, expression_lines.py

@@ -1,0 +1,130 @@
+Visits	Visit_ID	Site	CMM_Patient-ID	Sex	Time_from_baseline_months	SLEDAI_score	SRI_YesNo	LLDAS	anti_dsDNA_IU_mL
+Baseline	1	Karolinska Solna	1	Female	0	7			710.4
+Follow-up 1	2	Karolinska Solna	1	Female	2.86	7	No	0	690.0186
+Follow-up 2	3	Karolinska Solna	1	Female	5.79	6	No	0	317.2
+Follow-up 3	4	Karolinska Solna	1	Female	12.56	2	Yes	1	195.2
+Follow-up 4	5	Karolinska Solna	1	Female	23.08	0	Yes	1	94.8
+Follow-up 5	6	Karolinska Solna	1	Female	37.51	0	Yes	1	64.8
+Follow-up 6	7	Karolinska Solna	1	Female	52.7	6	No	0	200.4
+Baseline	1	Karolinska Solna	3	Female	0	15			786.4
+Follow-up 1	2	Karolinska Solna	3	Female	2.73	10	Yes	0	618.4
+Follow-up 2	3	Karolinska Solna	3	Female	5.85	8	Yes	0	496.8
+Follow-up 3	4	Karolinska Solna	3	Female	12.39	6	Yes	0	513.6
+Follow-up 4	5	Karolinska Solna	3	Female	25.68	6	Yes	0	1524.8
+Follow-up 5	6	Karolinska Solna	3	Female	36.1	6	Yes	0	3346.8
+Follow-up 6	7	Karolinska Solna	3	Female	47.8	4	Yes	1	2512.8
+Follow-up 7	8	Karolinska Solna	3	Female	52.57	4	Yes	1	
+Baseline	1	Karolinska Solna	4	Female	0	18			1855.2
+Follow-up 1	2	Karolinska Solna	4	Female	3.39	14	Yes	0	992.8
+Follow-up 2	3	Karolinska Solna	4	Female	6.21	10	Yes	0	993.6
+Follow-up 3	4	Karolinska Solna	4	Female	12	6	Yes	0	584.4
+Follow-up 4	5	Karolinska Solna	4	Female	24.85	6	Yes	0	240.8
+Follow-up 5	6	Karolinska Solna	4	Female	35.61	4	Yes	1	125.6
+Follow-up 6	7	Karolinska Solna	4	Female	40.04	2	Yes	1	76
+Follow-up 7	8	Karolinska Solna	4	Female	50.56	0	Yes	0	64.8
+Baseline	1	Karolinska Solna	5	Male	0	2			8.4
+Follow-up 1	2	Karolinska Solna	5	Male	2.7	2		0	6.4
+Follow-up 2	3	Karolinska Solna	5	Male	5.46	2		0	0
+Follow-up 3	4	Karolinska Solna	5	Male	11.05	2		0	0
+Baseline	1	Karolinska Solna	6	Female	0	10			1219.9858
+Follow-up 1	2	Karolinska Solna	6	Female	2.76	8	No	0	1310.8788
+Follow-up 2	3	Karolinska Solna	6	Female	5.56	8	No	0	1452.6719
+Follow-up 3	4	Karolinska Solna	6	Female	11.47	4	Yes	0	1028.1006
+Follow-up 4	5	Karolinska Solna	6	Female	23.93	4	Yes	1	1174.3374
+Follow-up 5	6	Karolinska Solna	6	Female	34.88	12	No	0	1634.4579
+Follow-up 6	7	Karolinska Solna	6	Female	37.78	8	No	0	2115.1807
+Follow-up 7	8	Karolinska Solna	6	Female	46.95	9	No	0	1513.6711
+Baseline	1	Karolinska Solna	7	Female	0	24			9.6953
+Follow-up 1	2	Karolinska Solna	7	Female	2.93	8	Yes	0	6.8675
+Follow-up 2	3	Karolinska Solna	7	Female	5.56	6	Yes	0	6.8675
+Follow-up 3	4	Karolinska Solna	7	Female	11.93	6	Yes	0	272.275
+Follow-up 4	5	Karolinska Solna	7	Female	15.68	10	Yes	0	
+Follow-up 5	6	Karolinska Solna	7	Female	40.47	10	Yes	0	
+Follow-up 6	7	Karolinska Solna	7	Female	43.86	6	Yes	0	104.224
+Follow-up 7	8	Karolinska Solna	7	Female	46.19	0	Yes	1	
+Follow-up 8	9	Karolinska Solna	7	Female	49.68	0	Yes	1	
+Baseline	1	Karolinska Solna	9	Female	0	7			85.2374
+Follow-up 1	2	Karolinska Solna	9	Female	2.79	4	No	1	52.112
+Follow-up 2	3	Karolinska Solna	9	Female	5.65	2	Yes	1	48.4763
+Follow-up 3	4	Karolinska Solna	9	Female	11.44	6	No	0	192.2892
+Follow-up 4	5	Karolinska Solna	9	Female	24.07	6	No	0	114.7271
+Follow-up 5	6	Karolinska Solna	9	Female	34.52	2	Yes	1	79.9858
+Follow-up 6	7	Karolinska Solna	9	Female	46.49	1	Yes	1	70.2906
+Baseline	1	Karolinska Solna	10	Female	0	8			77.966
+Follow-up 1	2	Karolinska Solna	10	Female	3.29	11	No	0	48.4763
+Follow-up 2	3	Karolinska Solna	10	Female	7.4	2	Yes	0	63.0191
+Follow-up 3	4	Karolinska Solna	10	Female	10.88	6	No	0	
+Baseline	1	Karolinska Solna	11	Female	0	14			2114.8296
+Follow-up 1	2	Karolinska Solna	11	Female	3.02	8	Yes	0	2084.0625
+Follow-up 2	3	Karolinska Solna	11	Female	6.51	4	Yes	1	1472.7699
+Follow-up 3	4	Karolinska Solna	11	Female	11.7	2	Yes	1	1899.0554
+Follow-up 4	5	Karolinska Solna	11	Female	24.1	2	Yes	1	1371.5625
+Baseline	1	Karolinska Solna	12	Female	0	8			214.5597
+Follow-up 1	2	Karolinska Solna	12	Female	5.79	4	Yes	0	95.9446
+Follow-up 2	3	Karolinska Solna	12	Female	9.04	4	Yes	0	73.679
+Follow-up 3	4	Karolinska Solna	12	Female	14.04	2	Yes	0	57.4858
+Follow-up 4	5	Karolinska Solna	12	Female	22.82	2	Yes	1	62.7486
+Follow-up 5	6	Karolinska Solna	12	Female	38.4	3	Yes	0	59.9148
+Baseline	1	Karolinska Solna	13	Female	0	6			182.1733
+Follow-up 1	2	Karolinska Solna	13	Female	2.7	4	No	0	121.8537
+Follow-up 2	3	Karolinska Solna	13	Female	6.38	4	No	1	98.7784
+Follow-up 3	4	Karolinska Solna	13	Female	12.56	2	Yes	1	74.8935
+Follow-up 4	5	Karolinska Solna	13	Female	23.84	6	No	0	40.483
+Follow-up 5	6	Karolinska Solna	13	Female	37.94	4	No	1	17.4077
+Baseline	1	Karolinska Solna	15	Female	0	21			80.9659
+Follow-up 1	2	Karolinska Solna	15	Female	2.99	13	Yes	0	90.277
+Follow-up 2	3	Karolinska Solna	15	Female	6.48	9	Yes	0	95.1349
+Baseline	1	Karolinska Solna	16	Male	0	4			456.354
+Follow-up 1	2	Karolinska Solna	16	Male	3.35	5	No	0	120.3727
+Follow-up 2	3	Karolinska Solna	16	Male	6.48	5	No	0	218.441
+Follow-up 3	4	Karolinska Solna	16	Male	13.12	4	No	0	214.9006
+Follow-up 4	5	Karolinska Solna	16	Male	24.43	3	No	1	142.323
+Follow-up 5	6	Karolinska Solna	16	Male	36.1	5	No	0	76.8261
+Baseline	1	Karolinska Huddinge	3001	Male	0	10			82.8205
+Follow-up 1	2	Karolinska Huddinge	3001	Male	3.29	4	Yes	0	67.7622
+Follow-up 2	3	Karolinska Huddinge	3001	Male	6.9	4	Yes	0	68.2051
+Follow-up 3	4	Karolinska Huddinge	3001	Male	11.7	4	Yes	1	50.4895
+Follow-up 4	5	Karolinska Huddinge	3001	Male	23.7	4	Yes	1	36.7599
+Baseline	1	Karolinska Solna	19	Female	0	9			7.5291
+Follow-up 1	2	Karolinska Solna	19	Female	3.62	4	Yes	1	5.3147
+Follow-up 2	3	Karolinska Solna	19	Female	6.38	0	Yes	1	4.8718
+Follow-up 3	4	Karolinska Solna	19	Female	12.13	0	Yes	0	4.8718
+Follow-up 4	5	Karolinska Solna	19	Female	17.88	0	Yes	1	4.8718
+Baseline	1	Karolinska Huddinge	3002	Female	0	13			2051.4685
+Follow-up 1	2	Karolinska Huddinge	3002	Female	2.27	8	Yes	0	
+Follow-up 2	3	Karolinska Huddinge	3002	Female	6.9	8	Yes	0	1127.5991
+Follow-up 3	4	Karolinska Huddinge	3002	Female	14.5	12	No	0	1495.1981
+Baseline	1	Karolinska Solna	17	Female	0	10			990.303
+Follow-up 1	2	Karolinska Solna	17	Female	2.83	10	No	0	766.2004
+Follow-up 2	3	Karolinska Solna	17	Female	5.62	12	No	0	716.5967
+Follow-up 3	4	Karolinska Solna	17	Female	12.2	4	Yes	1	595.6876
+Follow-up 4	5	Karolinska Solna	17	Female	20.94	4	Yes	1	1013.7762
+Follow-up 5	6	Karolinska Solna	17	Female	23.77	10	No	0	1336.2004
+Baseline	1	Karolinska Solna	18	Female	0	16			3025.3845
+Follow-up 1	2	Karolinska Solna	18	Female	2.73	8	Yes	0	2626.3403
+Follow-up 2	3	Karolinska Solna	18	Female	6.02	13	No	0	2888.5315
+Follow-up 3	4	Karolinska Solna	18	Female	11.31	4	Yes	1	2052.7971
+Follow-up 4	5	Karolinska Solna	18	Female	15.88	4	Yes	1	
+Baseline	1	Karolinska Solna	20	Female	0	6			82.8205
+Follow-up 1	2	Karolinska Solna	20	Female	2.89	6	No	0	65.5478
+Follow-up 2	3	Karolinska Solna	20	Female	6.9	4	No	1	48.7179
+Follow-up 3	4	Karolinska Solna	20	Female	12	4	No	1	32.331
+Follow-up 4	5	Karolinska Solna	20	Female	23.38	2	Yes	1	43.4033
+Baseline	1	Karolinska Solna	21	Male	0	8			2581.1655
+Follow-up 1	2	Karolinska Solna	21	Male	2.73	8	No	0	1617.6989
+Follow-up 2	3	Karolinska Solna	21	Male	7.13	6	No	0	
+Follow-up 3	4	Karolinska Solna	21	Male	11.28	6	No	0	2269.8792
+Follow-up 4	5	Karolinska Solna	21	Male	23.05	2	Yes	1	1723.3594
+Baseline	1	Karolinska Huddinge	3003	Female	0	9			1893.7666
+Follow-up 1	2	Karolinska Huddinge	3003	Female	2.73	7	No	0	917.754
+Follow-up 2	3	Karolinska Huddinge	3003	Female	8.28	7	No	0	1081.3817
+Baseline	1	Karolinska Solna	22	Female	0	4			17.2618
+Follow-up 1	2	Karolinska Solna	22	Female	2.99	3	No	0	12.2271
+Follow-up 2	3	Karolinska Solna	22	Female	5.88	2	No	1	17.2618
+Follow-up 3	4	Karolinska Solna	22	Female	11.7	2	No	1	29.1293
+Follow-up 4	5	Karolinska Solna	22	Female	22.45	2	No	1	30.9274
+Baseline	1	Karolinska Solna	23	Female	0	15			336.2461
+Follow-up 1	2	Karolinska Solna	23	Female	2.83	6	Yes	0	151.041
+Follow-up 2	3	Karolinska Solna	23	Female	5.75	4	Yes	1	230.1577
+Follow-up 3	4	Karolinska Solna	23	Female	8.84	4	Yes	1	276.9085
+Follow-up 4	5	Karolinska Solna	23	Female	11.61	6	Yes	0	227.2808
